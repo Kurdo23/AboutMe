@@ -19,7 +19,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #9D50BB;  /* fallback for old browsers */
+  background: #9D50BB;
 background: -webkit-linear-gradient(to right, #6E48AA, #9D50BB);
 background: linear-gradient(to right, #6E48AA, #9D50BB);
 
@@ -50,7 +50,7 @@ background: linear-gradient(to right, #6E48AA, #9D50BB);
   font-weight: 900;
   margin-bottom: 20px;
   color:#6d50e2;
-  font-family: 'Open Sans', sans-serif; /*'Dancing Script', cursive; */
+  font-family: 'Open Sans', sans-serif;
 }
 .content{
   display: flex;
@@ -236,18 +236,17 @@ background: linear-gradient(to right, #6E48AA, #9D50BB);
    }
 
    .btn-grad:hover {
-     background-position: right center; /* change the direction of the change here */
+     background-position: right center;
      text-decoration: none;
    }
   
 
-/* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 45%;
   padding:5px;
   margin:5px;
-  height:250px; /* Should be removed. Only for demonstration */
+  height:250px;
 }
 @media only screen and (max-width: 600px){
 
@@ -255,7 +254,7 @@ background: linear-gradient(to right, #6E48AA, #9D50BB);
     width: 100%;
   }
 }
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -274,14 +273,13 @@ background: linear-gradient(to right, #6E48AA, #9D50BB);
   padding: 2px 16px;
 }
 
-/*Contact details*/
+
 textarea{
   resize: none;
   width: 92%;
   height: 100%;
   border: none;
   border-radius: 5px;
-  /*background: #BEAFC2;*/
   background: #F0F1F8;
   margin-left: 25px;
   padding: 0 15px;
